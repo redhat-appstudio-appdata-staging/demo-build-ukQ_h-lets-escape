@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: demo-build
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/rhn-support-cguttman-tenant/demo-build/demo-build@sha256:471a904f4ca8b105cfca1d1d599d4e88e10e505c9810f24b906a817c6bcfe128
+        name: my-java-springboot
+        resources: {}
+status: {}
