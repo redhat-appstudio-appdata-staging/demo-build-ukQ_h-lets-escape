@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: demo-build
     app.kubernetes.io/part-of: demo-build
-  name: demo-buildks8x
+  name: demo-buildxss5
 spec:
   path: /
   port:
